@@ -1,0 +1,19 @@
+{
+  "name": "JavaScript_Avance_my_paint",
+  "version": "0.0.0",
+  "authors": [
+    "blonde_q <blonde_q@epitech.eu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "material-design-lite": "~1.0.5"
+  }
+}

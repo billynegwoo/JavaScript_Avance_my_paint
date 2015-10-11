@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Paint</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="./bower_components/material-design-lite/material.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="menu">
+        <a href="javascript:;" class="close"></a>
+        <ul>
+            <li class="active">My Paint</li>
+            <li><select id="tool">
+			<option value="pencil">Pencil</option>
+			<option value="circle">Circle</option>
+			<option value="rectangle">Rectangle</option>
+			<option value="line">Line</option>
+			<option value="rubber">Rubber</option>
+			</select></li>
+            <li><input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="1" tabindex="0"/></li>
+            <li><a id="color" href="#">Color</a></li>
+            <li><a id="fun" href="#">Fun</a></li>
+            <li><a id="clear" href="#">Clear</a></li>
+            <li><a id="save" href="#">Save</a></li>
+        </ul>
+    </div>
+ <a href="javascript:;" class="menu_btn"></a>
+	<div id="container" class="mdl-card mdl-shadow--2dp">
+		<canvas id="canvasDiv2"></canvas>
+	</div>
+		<canvas id="canvas_picker"></canvas>
+<script src="./bower_components/material-design-lite/material.min.js"></script>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./js/colorpicker.js"></script>
+<script src="./js/MyPaint2.js"></script>
+</body>
+</html>
